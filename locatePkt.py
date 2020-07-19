@@ -20,7 +20,7 @@ def extractLocation(ipAddr: str):
     return countryData
 
 # The "*" unpacks the tuple into a set of arguments to be passed into the function
-object1 = Location(* extractLocation("1.1.1.1"))
-
+locationOfIp = Location(* extractLocation("1.1.1.1"))
+# print(locationOfIp.country)
 
 
